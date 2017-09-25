@@ -1,6 +1,6 @@
 """Packaging settings."""
 from setuptools import Command, find_packages, setup
-from leo import __version__
+from src import __version__
 
 setup(
     name = 'food truck',
@@ -17,7 +17,7 @@ setup(
     },
     entry_points = {
         'console_scripts': [
-            'show_open_food_trucks=leo.cli:main',
+            'show_open_food_trucks=src.cli:main',
         ],
     }
 )

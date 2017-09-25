@@ -1,5 +1,5 @@
 from .base import Base
-from leo import api
+from src import api
 from datetime import datetime, timedelta
 
 class FoodTruck(Base):
